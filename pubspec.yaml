@@ -1,0 +1,21 @@
+name: keyboard_pro
+description: Keyboard Pro (كيبورد برو) - Arabic glassmorphic keyboard
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.1.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+
+flutter:
+  uses-material-design: true
